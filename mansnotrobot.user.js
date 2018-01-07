@@ -7,6 +7,8 @@
 // @match        *://*/*
 // ==/UserScript==
 
+var text = "Man's not robot";
+
 (function() {
     'use strict';
     window.onload = init;
@@ -15,7 +17,7 @@
         var item = document.getElementById("recaptcha-anchor-label");
         //window.alert(item.innerHTML);
         if (item) {
-            item.innerHTML = "Man's not robot";
+            item.innerHTML = text;
         }
     }
 })();
