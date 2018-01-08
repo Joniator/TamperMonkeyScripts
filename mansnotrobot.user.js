@@ -8,7 +8,7 @@
 // @license MIT
 // ==/UserScript==
 
-var text = "Man's not robot";
+var text = "Man's not bot";
 
 (function() {
     'use strict';
